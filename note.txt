@@ -1,0 +1,8 @@
+git init
+git remote add origin 'link'
+git add .
+git commit -m "dấu hiệu"(update1,lan1,..)
+git push -u origin main
+--nếu lỗi 'error: failed to push some refs to'
+git branch -m main
+git push -u origin main
